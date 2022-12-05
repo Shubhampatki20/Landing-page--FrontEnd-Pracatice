@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 150px;
+    background-color: black;
+    max-width: auto;
+}
+.navbar div img{
+    margin-left: 75px;
+    margin-top: 15px;
+    width: 150px;
+}
+section .navbar{
+    display: flex;
+    align-items: center;
+    
+}
+div ul li{
+    list-style-type: none;
+    color: white;
+}
+.list ul{
+    width: 500px;
+
+}
+.grow-list ul li{
+    display: inline;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.button-small{
+    margin-left: 250px;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(245, 9, 221);
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+nav div button{
+    width: 10px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.hero h1{
+    color: rgb(12, 11, 11);
+    font-size: 70px;
+    width: 600px;
+    color: white;
+    margin-top: -200px;
+    margin-right: 250px;
+}
+.hero h1 span{
+    margin-left: 35px;
+}
+.hero p{
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    margin-left: -250px;
+}
+
+.button-large{
+    padding: 20px;
+    width: 250px;
+}
+.hero button{
+    margin-left: 180px;
+    color: white;
+    background-color: rgb(245, 9, 221);
+    word-spacing: 5px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    border:none;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: -250px;
+}
+.img div{
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    /* width: 1517px; */
+    max-width: auto;
+    margin-left: 1px;
+    margin-top: -30px;
+}
